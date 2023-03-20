@@ -47,7 +47,7 @@ d3.tsv("data.tsv", function(error, data) {
   });
 
   var browsers = stack(color.domain().map(function(name) {
-     console.log(`logging password:${password}`);
+     console.log(`list of browsers:`);
     return {
       name: name,
       values: data.map(function(d) {
